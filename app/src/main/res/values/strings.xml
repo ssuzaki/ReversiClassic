@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reversi Classic</string>
+    <string name="exit_game">Exit the game ?</string>
+    <string name="game_over">game over</string>
+    
+    <string name="you_vs_cpu">YOU  vs  CPU</string>
+    <string name="cpu_vs_you">CPU  vs  YOU</string>
+    <string name="you_vs_you">YOU  vs  YOU</string>
+    <string name="select_game">select game</string>
+    
+    <string name="black_win">Black Win!</string>
+    <string name="white_win">White Win!</string>
+    <string name="draw">Draw!</string>
+    
+    <string name="new_game">New Game</string>
+    <string name="config">Config</string>
+    <string name="share">Share</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="exit">Exit</string>
+    
+    <!-- 設定 -->
+    <string name="config_marker_title">Marker</string>
+    <string name="config_marker_summary">Displays the marker</string>
+
+    <string name="config_sound_title">Sound</string>
+    <string name="config_sound_summary">Sound Enable</string>
+
+    <string name="config_startpos_title">Starting Position</string>
+    <string name="config_startpos_summary">Reflected from the next game</string>
+
+    <string name="config_level_title">CPU Level</string>
+    <string name="config_level_summary">The strength of the CPU</string>
+
+    <string name="config_theme_title">Theme</string>
+    <string name="config_theme_summary">Change the theme</string>
+
+    
+    <string-array name="entries_starting_position">
+        <item>CROSS</item>
+        <item>STRAIGHT</item>
+    </string-array>
+    <string-array name="entryvalues_starting_position">
+        <item>CROSS</item>
+        <item>STRAIGHT</item>
+    </string-array>
+
+    
+    <string-array name="entries_cpu">
+        <item>EASY</item>
+        <item>NORMAL</item>
+    </string-array>
+    <string-array name="entryvalues_cpu">
+        <item>EASY</item>
+        <item>NORMAL</item>
+    </string-array>
+
+    <string-array name="entries_theme">
+        <item>CLASSIC</item>
+        <item>DONUT</item>
+    </string-array>
+    <string-array name="entryvalues_theme">
+        <item>CLASSIC</item>
+        <item>DONUT</item>
+    </string-array>
+    
+</resources>

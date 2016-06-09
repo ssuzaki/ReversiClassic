@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">リバーシ クラシック</string>
+    <string name="exit_game">終了しますか？</string>
+    <string name="game_over">ゲームオーバー</string>
+    
+    <string name="you_vs_cpu">人間  vs  CPU</string>
+    <string name="cpu_vs_you">CPU   vs  人間</string>
+    <string name="you_vs_you">人間  vs  人間</string>
+    <string name="select_game">ゲームを選択</string>
+    
+    <string name="black_win">黒の勝ち！</string>
+    <string name="white_win">白の勝ち！</string>
+    <string name="draw">引き分け！</string>
+    
+    <string name="new_game">新規対戦</string>
+    <string name="config">設定</string>
+    <string name="share">共有</string>
+    <string name="undo">やり直す</string>
+    <string name="redo">元に戻す</string>
+    <string name="exit">終了</string>
+
+    <!-- 設定 -->
+    <string name="config_marker_title">マーカー</string>
+    <string name="config_marker_summary">置ける場所をお知らせ</string>
+
+    <string name="config_sound_title">効果音</string>
+    <string name="config_sound_summary">効果音のON/OFF</string>
+
+    <string name="config_startpos_title">開始ポジション</string>
+    <string name="config_startpos_summary">次のゲームから有効</string>
+
+    <string name="config_level_title">CPUレベル</string>
+    <string name="config_level_summary">コンピューターの強さ</string>
+
+    <string name="config_theme_title">テーマ</string>
+    <string name="config_theme_summary">絵が変わります</string>
+    
+    
+    <string-array name="entries_starting_position">
+        <item>CROSS</item>
+        <item>STRAIGHT</item>
+    </string-array>
+    <string-array name="entryvalues_starting_position">
+        <item>CROSS</item>
+        <item>STRAIGHT</item>
+    </string-array>
+
+    
+    <string-array name="entries_cpu">
+        <item>EASY</item>
+        <item>NORMAL</item>
+    </string-array>
+    <string-array name="entryvalues_cpu">
+        <item>EASY</item>
+        <item>NORMAL</item>
+    </string-array>
+
+    <string-array name="entries_theme">
+        <item>CLASSIC</item>
+        <item>DONUT</item>
+    </string-array>
+    <string-array name="entryvalues_theme">
+        <item>CLASSIC</item>
+        <item>DONUT</item>
+    </string-array>    
+</resources>

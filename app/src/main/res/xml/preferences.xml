@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference 
+        android:title="@string/config_marker_title"
+        android:summary="@string/config_marker_summary"
+        android:key="checkMarker" 
+        android:defaultValue="true"/>
+
+    <CheckBoxPreference 
+        android:title="@string/config_sound_title"
+        android:summary="@string/config_sound_summary"
+        android:key="checkSound" 
+        android:defaultValue="true"/>
+    
+	<ListPreference
+	        android:title="@string/config_startpos_title"
+	        android:summary="@string/config_startpos_summary"
+	        android:key="starting_position"
+	        android:entries="@array/entries_starting_position"
+	        android:entryValues="@array/entryvalues_starting_position"
+	        android:defaultValue="CROSS"
+	        android:dialogTitle="Starting Position" />    
+
+	<ListPreference
+	        android:title="@string/config_level_title"
+	        android:summary="@string/config_level_summary"
+	        android:key="cpu"
+	        android:entries="@array/entries_cpu"
+	        android:entryValues="@array/entryvalues_cpu"
+	        android:defaultValue="EASY"
+	        android:dialogTitle="CPU Level" />    
+		
+	<ListPreference
+	        android:title="@string/config_theme_title"
+	        android:summary="@string/config_theme_summary"
+	        android:key="theme"
+	        android:entries="@array/entries_theme"
+	        android:entryValues="@array/entryvalues_theme"
+	        android:defaultValue="CLASSIC"
+	        android:dialogTitle="Theme" />    
+	
+</PreferenceScreen>
